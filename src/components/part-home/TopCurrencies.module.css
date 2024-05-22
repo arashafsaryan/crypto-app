@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .coinItem {
+  margin-top: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.47);
+  display: flex;
+  transition: 0.2s ease-in-out;
+}
+.container .coinItem:hover {
+  margin-top: -20px;
+  box-shadow: 0 4px 30px rgba(148, 148, 148, 0.5);
+}
+.container .coinItem .coinName {
+  font-weight: 700;
+}
+.container .coinValue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .coinValue .coinChart {
+  margin-left: 10px;
+}
+.increase {
+  color: #57bc7c;
+}
+.decrease {
+  color: #d33636;
+}

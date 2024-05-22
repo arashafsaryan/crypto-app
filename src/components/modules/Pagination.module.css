@@ -1,0 +1,40 @@
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+}
+.pagination button {
+  border: 0;
+  padding: 4px 8px;
+  background-color: #2362d7;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.pagination .disabled {
+  opacity: 0.3;
+  cursor: inherit;
+}
+.pagination p,
+.pagination span {
+  font-size: 12px;
+  border: 1px solid #2362d7;
+  padding: 1px 6px;
+  border-radius: 5px;
+}
+.pagination .select {
+  background-color: #2362d7;
+}
+
+@media (min-width:550px) {
+  .pagination {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+  }
+}

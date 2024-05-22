@@ -1,0 +1,43 @@
+.container .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .nav h3 {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  color: #ffffff;
+}
+.container .nav h3 svg {
+  margin-right: 5px;
+}
+.container .nav .humberMenu .humber {
+  color: #fff;
+  font-size: 30px;
+}
+.itemsHumber div {
+  padding: 10px 25px;
+  width: 100px;
+}
+.itemsHumber div a {
+  transition: 0.2s ease-in-out;
+}
+.itemsHumber div a:hover {
+  margin-left: 10px;
+  color: #69afff;
+}
+.nav .mainMenu {
+  display: none;
+}
+@media (min-width: 650px) {
+  .container .nav .humberMenu {
+    display: none;
+  }
+  .nav .mainMenu {
+    display: block;
+  }
+  .nav .mainMenu .itemNav a {
+    margin-left: 40px;
+  }
+}

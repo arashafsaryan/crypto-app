@@ -1,0 +1,29 @@
+.container .cover .img {
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+}
+.container .info h3 {
+  font-size: 20px;
+}
+.container .info h6 {
+  font-size: 14px;
+}
+.container .info .linkHead {
+  border: 1px solid #69afff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #69afff;
+}
+@media (min-width: 550px) {
+  .container .cover img {
+    width: 100%;
+    margin-top: -50px;
+  }
+  .container .info h3 {
+    font-size: 55px;
+  }
+  .container .info h6 {
+    font-size: 16px;
+  }
+}

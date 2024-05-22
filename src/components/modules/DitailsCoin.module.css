@@ -1,0 +1,99 @@
+.container {
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 70px auto;
+}
+.container .return {
+  margin-bottom: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container .coinInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.container .coinValue .coinName {
+  font-weight: 700;
+  font-size: 20px;
+}
+.container .coinValue .name {
+  margin: 15px 0;
+}
+.coinInfo .coinValue div span.symbol,
+.coinInfo .coinValue div span.error,
+.coinInfo .coinValue div span.success {
+  margin-left: 20px;
+}
+.success {
+  color: #ffffff;
+  background-color: #57bc7c;
+  padding: 2px;
+  border-radius: 5px;
+}
+.error {
+  color: #ffffff;
+  background-color: #d33636;
+  padding: 2px;
+  border-radius: 5px;
+}
+.container .coinValue .price {
+  font-size: 25px;
+  font-weight: 100;
+}
+.container .coinBirth {
+  display: flex;
+  flex-direction: column;
+}
+.container .coinBirth .birth {
+  margin-top: 15px;
+}
+.container .description {
+  margin-top: 90px;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+}
+.container .description p {
+  font-size: 18px;
+  line-height: 40px;
+  color: #3a3a3a;
+}
+@media (max-width: 360px) {
+  .container {
+    margin: 10px auto;
+  }
+  .container .coinValue .coinName {
+    font-size: 14px;
+  }
+  .container .coinValue img{
+    width: auto;
+    height: auto;
+  }
+  .coinInfo .coinValue div span.symbol,
+  .coinInfo .coinValue div span.error,
+  .coinInfo .coinValue div span.success {
+    font-size: 12px;
+  }
+  .container .coinValue .price {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .container .coinBirth .rank,
+  .container .coinBirth .birth {
+    font-size: 13px;
+  }
+  .container .description {
+    margin: 50px 0;
+    border-radius: 5px;
+  }
+  .container .description p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}

@@ -1,0 +1,25 @@
+.accordion {
+  /* background-color: black; */
+  color: #fff !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.accordion svg {
+  color: #fff;
+}
+
+.container .imgCrypto {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+@media (min-width: 550px) {
+  .container .imgCrypto {
+    width: 350px;
+    height: 350px;
+    margin: 0 0 0 -30px;
+  }
+}
